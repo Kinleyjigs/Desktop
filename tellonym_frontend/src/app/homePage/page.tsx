@@ -45,4 +45,17 @@
 
 // export default HomePage;
 
-import 
+import React from 'react';
+import TellonymHeader from "../../reuseable_component/homepageheader";
+
+const HomePage = () => {
+  return (
+    <div>
+      <TellonymHeader />
+      
+      {/* Other content of your main page */}
+    </div>
+  );
+};
+
+export default HomePage;
