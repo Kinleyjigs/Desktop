@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Inbox.css';
+import './index.css';
 
 interface Tell {
     id: number;
